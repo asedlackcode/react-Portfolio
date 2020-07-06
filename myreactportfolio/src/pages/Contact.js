@@ -6,7 +6,8 @@ function Contact() {
             marginTop: "50px", 
             border: "grey solid thin",
             borderRadius: "5px", 
-            padding: "10px"}}>
+            padding: "10px",
+            backgroundColor:"white"}}>
             <h3>Contact Me</h3>
             <hr/>
             <h5>Name</h5><p>Austin Sedlack</p>

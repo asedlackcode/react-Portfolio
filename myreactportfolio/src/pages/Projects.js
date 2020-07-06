@@ -9,13 +9,14 @@ function Projects() {
         border: "grey solid thin",
         borderRadius: "5px",
         padding: "10px",
+        backgroundColor:"white"
       }}
     >
       <h3>My Projects</h3>
       <hr />
       <div className="card-group">
         <div className="card">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <img src="/imgs/weatherimg.jpg" class="card-img-top" ></img>
           <div className="card-body">
             <h5 className="card-title">Weather App</h5>
             <p className="card-text">
@@ -38,7 +39,7 @@ function Projects() {
           </div>
         </div>
         <div className="card">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <img src="/imgs/dailyplannerpic.jpg" class="card-img-top" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title">Daily Planner</h5>
             <p className="card-text">
@@ -61,7 +62,7 @@ function Projects() {
           </div>
         </div>
         <div className="card">
-          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <img src="/imgs/passGenpic.jpg" class="card-img-top" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title">Password Generator</h5>
             <p className="card-text">

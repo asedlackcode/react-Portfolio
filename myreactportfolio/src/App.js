@@ -11,7 +11,7 @@ import Contact from "./pages/Contact"
 function App() {
   return (
     <Router>
-    <div>
+    <div >
       <Nav/>
       <Main>
         <Route exact path="/" component={About}/>
